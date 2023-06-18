@@ -27,24 +27,7 @@
             </div>
             <div>
                 <p>Let's do this!</p>
-                <form action="#" method="get">
-                    <!--<div>
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name" id="first-name">
-                        <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password" style="margin-bottom: 0;" class="error">
-                        <span id="pass-check-text">* Passwords do not match</span>
-                    </div>
-                    <div>
-                        <label for="last-name">LAST NAME</label>
-                        <input type="last-name" name="last-name" id="last-name">
-                        <label for="phone-number">PHONE NUMBER</label>
-                        <input type="tel" name="phone-number" id="phone-number">
-                        <label for="confirm-pass">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm-pass" id="confirm-pass" class="error">
-                    </div>-->
+                <form action="#" method="get" id="my-form">
                     <section>
                         <div>
                             <label for="first-name">FIRST NAME</label>
@@ -78,7 +61,10 @@
                     </section>
                 </form>
             </div>
-            <div></div>
+            <div>
+                <button type="submit" form="my-form">Create Account</button>
+                <span>Already have an account? <a href="#">Log in</a></span>
+            </div>
         </div>
     </body>
 </html>

@@ -146,9 +146,31 @@ body {
     box-shadow: 2px 2px 3px rgb(250, 130, 130);
 }
 
-
-
 #form > div:last-child {
+    padding: 5vh 3vw;
     background-color: rgb(245, 245, 245);
+}
+
+#form > div:last-child button {
+    padding: 15px 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(33, 147, 192);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(102, 101, 101);
+}
+
+#form > div:last-child span {
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#form div:last-child span a {
+    color: rgb(33, 147, 192);
+    font-weight: bold;
+    text-decoration: none;
 }
 
